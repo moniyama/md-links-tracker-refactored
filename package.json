@@ -2,7 +2,7 @@
   "name": "md-links",
   "version": "0.1.0",
   "bin": {
-    "todo": "cli.js"
+    "mdlinks": "cli.js"
   },
   "dependencies": {
     "node-fetch": "^2.6.0"
