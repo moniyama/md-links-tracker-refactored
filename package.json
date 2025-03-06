@@ -1,10 +1,28 @@
 {
   "name": "md-links",
   "version": "0.1.0",
+  "description": "A tool to extract and validate links from markdown files",
+  "author": "moniyama",
+  "license": "ISC",
+  "keywords": [
+    "markdown",
+    "links",
+    "validator"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "bin": {
-    "mdlinks": "cli.js"
+    "md-links": "cli.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
   },
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.12"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }

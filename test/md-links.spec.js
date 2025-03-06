@@ -16,7 +16,7 @@ const option = {
 };
 const errorMessage = (path) => `o caminho ${path} não é um diretório e nem um arquivo com extensão legível.`
 
-describe.skip("mdLinks reading a file with then test", () => {
+describe("mdLinks reading a file with then test", () => {
   it("should be a function", () => {
     expect(Object.is(typeof mdLinks, "function")).toBe(true);
   });
@@ -54,7 +54,7 @@ describe.skip("mdLinks reading a file with then test", () => {
   });
 });
 
-describe.skip("mdLinks reading a dir with then test", () => {
+describe("mdLinks reading a dir with then test", () => {
   it("should return a array of objects", (done) => {
     const data = mdLinks(path.directory, option.none);
     data.then((result) => {
